@@ -6,7 +6,7 @@ import time
 from detection_utils import draw_bboxes
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    '-i', '--input', required=True, help='path to the input data'
+    '-i', '--input', required=True, help='SSD_ResNet_video/20191202_032106.mp4'
 )
 args = vars(parser.parse_args())
 # define the computation device
